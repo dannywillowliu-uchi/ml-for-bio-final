@@ -1,0 +1,33 @@
+# Large data files (downloaded in notebook from GEO)
+data/GSE96058_gene_expression.csv.gz
+data/GSE96058_family.soft.gz
+data/*.png
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Generated/temp files
+docs/images/
+docs/final_report_raw.html
+docs/image_urls.json
+docs/plans/
+.claude/
+
+# Lab directories (separate repos)
+lab-*/
+
+# Backup
+final_project_backup.ipynb
